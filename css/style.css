@@ -647,6 +647,16 @@ margin-bottom: 20px;
   justify-content: center;
 }
 
+.close-icon {
+  color: #000000;
+  transition: fill var(--transition);
+}
+
+.close-icon:hover,
+.close-icon:focus {
+  fill: var(--accent-color);
+}
+
 .modal-heading {
   font-weight: 700;
   font-size: 20px;
@@ -685,6 +695,7 @@ margin-bottom: 20px;
   border-radius: 4px;
   padding-left: 12px;
   transition: outline-color var(--transition);
+  padding: 0 0 0 40px;
 }
 
 .modal-input-group:focus-within .modal-input {
