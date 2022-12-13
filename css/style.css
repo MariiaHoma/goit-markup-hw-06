@@ -754,6 +754,10 @@ margin-bottom: 20px;
   justify-content: center;
 }
 
+.modal-contract-check {
+  appearance: none;
+}
+
 .icon-check {
   display: inline-block;
   margin-right: 10px;
@@ -769,7 +773,6 @@ margin-bottom: 20px;
 .modal-contract-check:checked + .icon-check {
   border-color: var(--accent-color);
   background-image: url('../img/check.svg.svg');
-  background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-color: var(--accent-color);
