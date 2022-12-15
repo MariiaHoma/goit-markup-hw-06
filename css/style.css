@@ -645,6 +645,12 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: outline-color var(--transition);
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  outline: 1px solid var(--accent-color);
 }
 
 .close-icon {
@@ -670,9 +676,6 @@ margin-bottom: 20px;
 .modal-input-group {
   position: relative;
   margin-bottom: 10px;
-}
-
-.modal-input-group label {
 }
 
 .modal-input-group-coment {
@@ -727,7 +730,7 @@ margin-bottom: 20px;
     margin-bottom: 20px;
 }
 
-.modal-input-group:focus-within .modal-textarea {
+.modal-input-group-coment:focus-within .modal-textarea {
   outline: 1px solid var(--accent-color);
 }
 
